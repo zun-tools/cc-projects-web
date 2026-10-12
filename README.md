@@ -3,7 +3,7 @@
 Claude Code Projects で、2つのリポジトリにまたがる仕事を試すためのサンプルです（Web 画面側）。
 組になる API 側は [cc-projects-api](https://github.com/zun-tools/cc-projects-api) です。
 
-依存なしの素の JavaScript。`src/api.js` が API の **`/v1/items`（v1）** を呼んで一覧を出し、`index.html` が表示します。
+依存なしの素の JavaScript。`src/api.js` が API の **`/v2/items`（v2）** を呼んで一覧を出し、`index.html` が表示します。
 API のベース URL は `src/config.js` の1か所だけです。
 
 ## 使い方
@@ -20,7 +20,7 @@ node --test                   # テスト（Node 20 以上）
 
 A dependency-free vanilla JavaScript page for trying Claude Code Projects on work that spans two repositories
 (this is the web side; the API side is [cc-projects-api](https://github.com/zun-tools/cc-projects-api)).
-`src/api.js` calls the API's **`/v1/items` (v1)** and `index.html` renders the list. The base URL is set only in `src/config.js`.
+`src/api.js` calls the API's **`/v2/items` (v2)** and `index.html` renders the list. The base URL is set only in `src/config.js`.
 Tests: `node --test` (Node 20+).
 
 License: MIT
